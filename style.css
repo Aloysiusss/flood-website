@@ -146,7 +146,7 @@ section:nth-child(odd) {
   position: absolute;
   top: 19%;
   left: 35%;
-
+  width: 300px;
 }
 
 h1{
