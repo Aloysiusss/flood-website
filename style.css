@@ -303,31 +303,5 @@ h4 {
 	font-size: 20px;
 }
 
-/*table */
 
-.table-dark {
-	background-color: #343a40;
-	color: #fff;
-}
 
-/* Style for table header */
-.table-dark th {
-	border: none;
-}
-
-/* Style for table body */
-.table-dark td,
-.table-dark th,
-.table-dark thead th {
-	border-color: #454d55;
-}
-
-/* Style for table rows */
-.table-dark tbody tr:nth-of-type(odd) {
-	background-color: #343a40;
-}
-
-/* Style for image */
-.table-dark img {
-	display: block;
-	margin: auto;
