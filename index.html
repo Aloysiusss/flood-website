@@ -30,21 +30,20 @@
         <header>
             <nav>
                 <h2 class="logo">SAM<span>FLOOD</span></h2>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#flood">Flood Color Code</a></li>
-                    <li><a href="#emerg">Emergency Hotlines</a></li>
-                    <li><a href="#imports">Community Feedback</a></li>
-                    <li><a href="#dosndonts">Do's and Dont's</a></li>
-                </ul>
-                <!-- Link to login page -->
-                <a href="login.html" class="btn">Back</a>
-
-
+                <div clas="navb">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#flood">Flood Color Code</a></li>
+                        <li><a href="#emerg">Emergency Hotlines</a></li>
+                        <li><a href="#imports">Community Feedback</a></li>
+                        <li><a href="#dosndonts">Do's and Dont's</a></li>
+                        <a href="login.html" class="btn">Back</a>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section id="home"></section>
-        
+
         <section id="flood"></section>
 
         <section id="emerg">
@@ -104,18 +103,53 @@
                                     <tbody class="table-group-divider">
                                         <tr>
                                             <th scope="row"><img src="yellow.png" width="120px"></th>
-                                            <td>des</td>
-                                            <td>fc</td>
+                                            <td>
+                                                <p>Flood Monitoring</p>
+                                                <p>Telemetered: Slow rise in water level but still below alarm level</p>
+                                                <br>
+                                                <p> Non-Telemetered: Monitor for possible flooding area</p>
+                                            </td>
+                                            <td>
+                                                <p>Telemeterd: Flood is possible</p>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <p>Non-Telemeterd: Light to Moderate Rainfall</p>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><img src="orange.png" width="120px"></th>
-                                            <td>des</td>
-                                            <td>fc</td>
+                                            <td>
+                                                <p>Flood Alert</p>
+                                                <p>Telemetered: Water level is continuously rising but still below
+                                                    critical level</p>
+                                                <br>
+                                                <p>Non-Telemetered: Alert for possible flash floods and landslides</p>
+                                            </td>
+                                            <td>
+                                                <p>Telemeterd: Flood is threatening</p>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <p>Non-Telemeterd: Moderate to Heavy Rainfall</p>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><img src="redd.png" width="120px"></th>
-                                            <td>des </td>
-                                            <td>fc </td>
+                                            <td>
+                                                <p>Flood warning</p>
+                                                <p>Telemetered: Water level is above critical</p>
+                                                <br>
+                                                <p> Non-Telemetered: Flood is occuring immediate action is recommended
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>Telemeterd: Flood is possible</p>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <p>Non-Telemeterd: Heavy to Intense Rainfall</p>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>

@@ -41,7 +41,7 @@ html{
 .hero{
 	height: 100vh;
 	width: 100%;
-	background: #whitesmoke;
+	background-color: whitesmoke;
 	background-size: cover;
 	background-position: center;
 }
@@ -281,10 +281,6 @@ h4{
 .emerge .emerg-content .right p{
     text-align: justify;
     font-size: 20px;
-}
-
-.navb{
-	background-color: whitesmoke;
 }
 
 .accordion-button:active {
