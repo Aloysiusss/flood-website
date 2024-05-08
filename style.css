@@ -41,7 +41,7 @@ html{
 .hero{
 	height: 100vh;
 	width: 100%;
-	background: #whitesmoke;
+	background-color: whitesmoke;
 	background-size: cover;
 	background-position: center;
 }
@@ -124,11 +124,8 @@ section:nth-child(odd) {
 
 }
 
-.end{
-	position: absolute;
-	top: 115%;
-	left: 37%;
-	transform: translateY(-50%);
+.btn-outline-danger{
+	input
 }
 
 .center {
@@ -145,16 +142,18 @@ section:nth-child(odd) {
   background-position: center;
   position: absolute;
   top: 19%;
-  left: 35%;
-  width: 300px;
+  left: 45%;
+  width: 400px;
 }
 
 h1{
 	color: black;
-	margin: 0px 0px 10px;
+	margin: 3px 2px 10px;
+	top: 500%;
 	font-size: 85px;
 	margin-bottom: 0px;
 	font-family: 'Ubuntu', sans-serif;
+	left: 45%;
 }
 
 h4{
@@ -162,6 +161,7 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
 
 }
 .content a{
@@ -266,7 +266,7 @@ h4{
 }	
 
 .details {
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -283,7 +283,36 @@ h4{
     font-size: 20px;
 }
 
-.navb{
-	background-color: whitesmoke;
+.accordion-button:active {
+	background-color: rgba(220, 20, 60, 0.349); /* Red color when active */
+}
+.table-dark {
+	background-color: #343a40;
+	color: #fff;
+	font-size: 14px; /* Set font size for table content */
 }
 
+/* Style for table header */
+.table-dark th {
+	border: none;
+	font-size: 18px; /* Set larger font size for headers */
+}
+
+/* Style for table body */
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
+	border-color: #ffffff;
+}
+
+/* Style for table rows */
+.table-dark tbody tr:nth-of-type(odd) {
+	background-color: #A8A9AB;
+}
+
+/* Style for image */
+.table-dark img {
+	display: block;
+	margin: auto;
+	align-content: center;
+}
