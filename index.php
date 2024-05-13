@@ -29,7 +29,7 @@
 </head>
 
 <body>
-
+<!-- 1st section -->
     <div class="hero">
         <header>
             <nav>
@@ -50,7 +50,7 @@
             <div class="picture">
                 <img src="cctv2.png" alt="">
             </div>
-
+                                <!-- live stream feed -->
             <div class="content">
                 <h1>SAM FLOOD <span>MONITORING</span></h1>
                 <!-- Button trigger modal -->
@@ -82,12 +82,14 @@
         </section>
 
         <section id="flood"></section>
-
+                                            <!-- contacts -->
         <section id="emerg">
             <div>
                 <p><img src="conts.png" class="rounded float-start"></p>
             </div>
         </section>
+
+                    <!-- DMS section -->
         <section id="imports">COMMUNITY FEEDBACK
             <table id="cf" class="table table-dark table-sm">
                 <colgroup>
@@ -122,7 +124,7 @@
                 </tbody>
             </table>
         </section>
-
+                <!-- important contacts section -->
         <section id="dosndonts">IMPORTANT THINGS</section>
 
         <script src="script.js"></script>
